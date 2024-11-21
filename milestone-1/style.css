@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-containor {
+        display: flex;
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(165, 42, 42, 0.6); /* Light brown glow */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    width: 35%;
+    border-right: 5px solid rgba(255, 0, 0, 0.3);
+    text-align: justify;
+    line-height: 1.8;
+    margin: 10px 0; 
+    word-spacing: 2px; 
+    hyphens: auto; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 50%;
+    border: 5px solid salmon;
+    margin-bottom: 20px;
+}
+
+
+.left-section h3 {
+    font-size: 22px; /* Larger, more prominent heading */
+    margin-bottom: 5px; /* Small gap below heading */
+    text-align: left; /* Left alignment for readability */
+    color: #ffffff; /* White color for dark background */
+    text-transform: uppercase; /* Capitalize headings */
+    border-bottom: 2px solid #e74c3c; /* Underline effect for headings */
+    padding-bottom: 5px; /* Space below underline */
+}
+
+/* Right Section Styling */ 
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+.right-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+    text-transform: uppercase; /* Capitalize headings */
+    border-bottom: 2px solid #e74c3c; /* Underline effect for headings */
+    padding-bottom: 5px; /* Space below underline */
+}
+
+.right-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-bottom: 5px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(220, 41, 41);
+    color: white;
+}
